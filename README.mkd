@@ -1,0 +1,21 @@
+# Vim-Guitar
+
+This will be a Vim plugin to make it easier to read and play along with lead sheets
+and guitar tabs in Vim.
+
+---------------------------------
+
+Right now, we've only got some syntax highlighting for Chords and Tabs. Soon, I'll be 
+fleshing that out and I also want to add:
+
+* auto-loading the plugin features for .gtr (or .guitar) files
+* an auto-scroll feature like [AutoScrollMode](http://www.vim.org/scripts/script.php?script_id=2041)
+  for playing along with songs that don't fit all on the screen
+* keyboard bindings for text size(?)
+* easy keyboard navigation within song; e.g. 'v' toggles through verses, 'c' goes straight to chorus, etc.
+  This will be cool for songs with many verses but the chorus is only listed once, or improvising
+  and needing to quickly jump back to, for example, the bridge to play again.
+
+--------------------
+
+If this doesn't suit your fancy check out [this vim syntax file for guitar chords and tabs](http://www.vim.org/scripts/script.php?script_id=2110)
